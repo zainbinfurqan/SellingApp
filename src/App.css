@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -30,4 +30,56 @@
   to {
     transform: rotate(360deg);
   }
+} */
+/* 
+.add_list_txtbox{
+  width: 150px;
+  float: left !important;
 }
+.add_txt{
+  width: fit-content;
+  float: left;
+  margin: 0px;
+  height: 100%;
+  background-color: #1f9db1;
+  color: white;
+  width: 10%;
+  padding: 0px 12px;
+  margin: 0px 22px;
+}
+.addList{
+  width: 90%;
+  margin: auto;
+  height: 100%;
+  margin: 10px 0px;
+}
+.addList-btn{
+  margin: 0px 10px;
+}
+.mainListCard{
+  width: 90%;
+  margin: auto;
+  height: auto;
+  margin-top: 20px; 
+}
+.addSubListBtn{
+  height: 35px;
+  padding: 5px 0px;
+}
+.addSubListBtn:hover{
+  background-color: #e2e2e2;  width: 100%;
+}
+.addSubListBtn p{
+  margin: 0px;
+
+}
+.AddSublisttext{
+  widows: 100%;
+
+}
+.AddSublisttext .sublist-text{
+width: 100%
+}
+.sublisttext_p{
+  margin: 10px 0px;
+} */

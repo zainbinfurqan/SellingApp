@@ -1,0 +1,103 @@
+/* .login_header{
+    height: 50px;
+    width: 100%;
+    background-color: blueviolet;
+}
+.action_header{
+    width: 280px;
+    float: right;
+    height: 100%;
+}
+.action_header li{
+    color: white;
+    display: flex;
+    float: left;
+    margin: 7px 10px;
+    font-style: italic;
+    font-variant: all-small-caps;
+    font-weight: 600;
+    font-size: 21px;
+    cursor: pointer;
+}
+.MuiDialog-paperWidthSm{
+    width: 96%;
+    max-width: 670px !important;
+    margin: 0px !important;
+}
+.login_txtbox{
+    margin: 15px 15px !important;
+}
+.dropdown_header{
+    width: 110px;
+    margin: 8px 0px 0px 0px;
+    float: left;
+}
+.dropdown_header .btn{
+    background-color: blueviolet;
+    border: 0px;
+}
+.dropdown_header .btn-primary:hover{
+    background-color: blueviolet;
+}
+.dropdown_header .dropdown-toggle{
+    background-color: blueviolet !important;
+
+}
+.login_header img{
+    height: 25px;
+    margin: 14px 0px 0px 6px;
+} */
+.login_header
+{
+    height: 50px;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.header_div{
+    height: 100%;
+    width: 100%;
+
+}
+.header_div p{
+    float: right;
+    color: white;
+    margin: 12px 5px;
+    padding: 0px;
+    font-size: large;
+    font-style: italic;
+}
+.MuiDialog-paperWidthSm{
+    width: 96%;
+    max-width: 670px !important;
+    margin: 0px !important;
+}
+.dropdown_header{
+    width: 110px;
+    margin: 8px 0px 0px 0px;
+    float: right !important;
+}
+.dropdown_header .btn{
+    background-color: blueviolet;
+    border: 0px;
+}
+.dropdown_header .btn-primary:hover{
+    background-color: blueviolet;
+}
+.dropdown_header .dropdown-toggle{
+    background-color: blueviolet !important;
+
+}
+.login_header .headerLogo{
+    height: 31px !important;
+    margin: 10px 0px 0px 8px !important;
+    float: left;
+}
+.SignIn_main{
+    width: 100%;
+    text-align: center;
+}
+.Login_main{
+    width: 100%;
+    text-align: center;
+}

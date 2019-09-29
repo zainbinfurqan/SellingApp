@@ -1,0 +1,30 @@
+.cntact_icon{
+    margin: 0;
+      padding: 0;
+      border: 0;
+      position: fixed;
+      z-index: 16000160;
+      bottom: 0;
+      text-align: center;
+      overflow: hidden;
+      width: 100%;
+  }
+  .cntact_icon p{
+    float: right;
+    width: 55px;
+    height: 55px;
+    margin: 0px 26px 21px 0px
+  }
+  .cntact_icon img
+  {
+    height: 100%;
+    width: 100%;
+  }
+  .footer{
+    width: 100%;
+    margin: 0px;
+    height: 40px;
+  }
+  .footer p{
+    margin: 15px 5px;
+  }

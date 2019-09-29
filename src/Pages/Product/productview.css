@@ -1,0 +1,24 @@
+.Product_Img{
+height: 200px;
+width: 95%;
+border: solid;
+margin: auto
+}
+.Product_Details{
+    height: 200px;
+    width: 95%;
+    border: solid;
+    margin: auto
+}
+.product_img_col{
+margin: 10px 0px;
+}
+.product_detail_col{
+    margin: 10px 0px;
+
+}
+.Product_Img img
+{
+    height: 100%;
+    width: 100%;
+}

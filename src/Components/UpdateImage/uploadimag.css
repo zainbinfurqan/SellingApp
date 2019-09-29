@@ -1,0 +1,13 @@
+.pincode_btn{
+    float: right;
+    height: 40px;
+    margin: 0px 9px;
+    background-color: #48a5ff;
+    color: white;
+    width: 85px;
+    padding: 6px 4px;
+
+}
+.login_txtbox{
+    margin: 10px 0px 5px 20px !important;
+}

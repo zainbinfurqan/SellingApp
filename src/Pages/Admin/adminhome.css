@@ -1,0 +1,127 @@
+.detail_panel {
+  margin: 10px 0px;
+  position: initial;
+}
+.detail_panel .MuiExpansionPanel-root {
+  /* position: absolute !important; */
+}
+.detail_panel .MuiButtonBase-root {
+  /* position: absolute !important; */
+}
+.detail_panel p {
+  width: 100%;
+  margin: 10px 0px 0px 5px;
+}
+.icon_Update {
+  height: 38px;
+  width: 79px !important;
+  float: left;
+  margin: 8px 4px !important;
+  padding: 0px 5px;
+  font-size: 13px;
+  background-color: #029a23;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 1px 3px 4px -2px grey;
+}
+.icon_Update .fa-edit {
+  font-size: 25px;
+  margin: 7px 0px;
+}
+.icon_Delete {
+  height: 38px;
+  width: 79px !important;
+  float: left;
+  margin: 8px 4px !important;
+  padding: 0px 5px;
+  font-size: 13px;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 1px 3px 4px -2px grey;
+}
+.icon_Delete .fa-trash-alt {
+  font-size: 25px;
+  margin: 7px 0px;
+}
+.admin-product-cards {
+  height: 50px;
+  width: 75%;
+  margin: auto;
+  box-shadow: 0.5px 0.5px 4px -1px;
+  border-radius: 10px;
+  transition: height 2s;
+}
+.admin-product-cards-active {
+  height: 240px;
+  width: 75%;
+  margin: auto;
+  box-shadow: 0.5px 0.5px 4px -1px;
+  border-radius: 10px;
+  transition: height 2s;
+  animation: mymove 1s ;
+  /* animation-delay: 2s; */
+}
+
+.admin-product-cards p {
+  opacity: 0;
+  display: none;
+  /* transition: opacity 6s; */
+}
+.adminCardbtn{
+color: white;
+    margin: 10px;
+    width: 47% !important;
+    height: 40px;
+    border-radius: 10px;
+    padding: 9px;
+    background: #11a21c;    
+}
+.adminCarddeletebtn
+{color: white;
+    margin: 10px;
+    width: 47% !important;
+    height: 40px;
+    border-radius: 10px;
+    padding: 9px;
+    background:red;  
+
+
+}
+.detail_panel span{
+    margin: 10px 10px; 
+}
+/* .admin-product-cards-active p{
+    opacity: 1;
+    display: block;
+    transition: opacity 6s;
+    animation-delay: 2s;
+} */
+@keyframes mymove {
+  from {
+    opacity: 0;
+    display: none;
+    /* transition: opacity 6s; */
+  }
+  to {
+    opacity: 1;
+    display: block;
+    transition: opacity 1s;
+    animation-delay:  1s;
+  }
+}
+/* .admin-product-cards-active p{
+    opacity: 1;
+    display: block;
+    transition: opacity 6s;
+
+} */
+.adminCard_details{
+  position: unset !important;
+  width: 90%;
+  margin: auto !important;
+  margin-top: 10px !important;
+}
+.cardContentActive p{
+  margin: 10px 20px;
+}

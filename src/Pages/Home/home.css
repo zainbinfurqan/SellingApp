@@ -1,0 +1,262 @@
+.Home_banner {
+  height: 321px;
+  /* border: solid; */
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+}
+.Home_banner h2 {
+  font-size: 53px;
+}
+.card_main_div {
+  margin: 10px 0px;
+}
+.product_card_col {
+  margin: 10px 0px;
+  position: inherit !important;
+}
+.MuiAvatar-root{
+  position: inherit !important;
+}
+.Home_banner img {
+  height: 100%;
+  width: 100%;
+  background-size: 100%;
+}
+
+
+a {
+  text-decoration: unset !important;
+}
+
+/* slideshow  */
+@keyframes slideshow {
+  15% {
+    left: 0;
+  }
+  25% {
+    left: 0;
+  }
+  45% {
+    left: -100%;
+  }
+  55% {
+    left: -100%;
+  }
+  65% {
+    left: -200%;
+  }
+  85% {
+    left: -200%;
+  }
+  100% {
+    left: -200%;
+  }
+  /* 80% {left: -300%;}
+	90% {left: -400%;}
+	100% {left: -400%} */
+}
+
+#slider {
+  overflow: hidden;
+  width: 50%;
+  margin: 5px auto;
+  border: 5px solid transparent;
+  border-radius: 10px;
+  width: 80%;
+  height: 285px;
+}
+#slider figure img {
+  width: 20%;
+  float: left;
+  height: 100%;
+}
+#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  animation: 20s slideshow infinite;
+  height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  #slider {
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.icon {
+  padding: 9px;
+  background: dodgerblue;
+  color: white;
+  min-width: 39px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  height: 100%;
+}
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+@media screen and (max-width: 1440px) {
+  .search_textbox {
+    height: 35px;
+    width: 25%;
+    margin: 10px 7px 7px 11px;
+    float: right;
+  }
+  .input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 75%;
+    margin-bottom: 15px;
+    height: 100%;
+    margin: 0px;
+    float: left;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .search_textbox {
+    height: 35px;
+    width: 39%;
+    margin: 11px 15px 7px 11px;
+    float: right;
+  }
+  .input-container {
+    display: flex;
+    width: 80%;
+    margin-bottom: 15px;
+    height: 100%;
+    margin: 0px;
+    float: left;
+  }
+}
+@media screen and (max-width: 768px) {
+  .search_textbox {
+    width: 40%;
+    height: 35px;
+    margin: 0px 15px 0px 11px;
+  }
+  .input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 75%;
+    margin-bottom: 15px;
+    height: 100%;
+    margin: 0px;
+    float: left;
+  }
+}
+@media screen and (max-width: 565px) {
+  .search_textbox {
+    height: 35px;
+    width: 98%;
+    margin: 0px 3px 0px 5px;
+  }
+  .input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 70%;
+    margin-bottom: 15px;
+    height: 100%;
+    margin: 0px;
+    float: left;
+  }
+}
+@media screen and (max-width: 326px) {
+  .search_textbox {
+    height: 35px;
+    width: 98%;
+    margin: 0px 3px 0px 5px;
+  }
+  .input-container {
+    display: -ms-flexbox; /* IE10 */
+    /* display: flex;
+        width: 70%; */
+    margin-bottom: 15px;
+    height: 100%;
+    margin: 0px;
+    float: left;
+  }
+}
+.btn {
+    margin: 0px;
+    background-color: #349bff !important;
+    color: white;
+    /* padding: 15px 20px; */
+    /* border: none; */
+    cursor: pointer;
+    /* width: 100%; */
+    height: 100%;
+    opacity: 0.9;
+    border-radius: 0px;
+    position: unset;
+
+  }
+  
+  .btn:hover {
+    opacity: 1;
+    color: white;
+
+  }
+.change_view{
+    height: 72%;
+    /* border: 0.1px solid; */
+    width: 80px;
+        float: left;
+}
+.change_view img {
+    height: 95%;
+    padding: 5px 5px;
+ }    
+
+.dropdown{
+    width: 110px;
+    float: left;
+    
+}
+.login_header img {
+    height: 58px;
+    margin: -4px 0px 0px 17px;
+}
+
+.dropdown_home .dropdown-toggle{
+    background-color: blueviolet ;
+
+}
+.dropdown_home .btn{
+    background-color: #349bff 
+}
+.sell_item {
+  background-color: #48a5ff;
+  width: 59px;
+  height: 80%;
+  float: left;
+  text-align: center;
+  /* border: solid; */
+  color: white;
+  padding: 7px 0px;
+}
+#slider figure {
+  position: unset;
+}
+.search_btn
+{
+  float: right;
+    height: 100%;
+    width: 70px;
+    background-color: #48a5ff;
+    color: white;
+    text-align: center;
+    padding: 5px 0px;
+    margin: 0px 3px 0px 0px;
+}

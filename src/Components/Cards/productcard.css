@@ -1,0 +1,16 @@
+.productCard_Img{
+    height: 200px;
+}
+.productCard_Img img {
+    height: 100%;
+    width: 100%;
+}
+.productcard_main p{
+margin: 0px;
+width: fit-content;
+color: #a5a5a2;
+}
+.productcard_main span{
+  
+    color:black;
+}    
